@@ -122,6 +122,14 @@ div.clearfix{
 	height: 20px;
 }
 
+div.content-mid-img{
+	background-image: url('../images/female.jpg');
+}
+
+div.content-mid-img1{
+	background-image: url('../images/innovation.jpg');
+}
+
 
 ul.arrow-list li{
 	list-style: outside none none;
