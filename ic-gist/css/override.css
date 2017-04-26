@@ -98,6 +98,11 @@
 	font-size: 2em;
 }
 
+.schedule td{
+	text-align: center;
+	vertical-align: middle !important;
+}
+
 i.ic-up{
 	background-position: 50% 50%;
 	background-image: url('../images/circle-up.png');
