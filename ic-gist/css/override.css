@@ -103,6 +103,19 @@
 	vertical-align: middle !important;
 }
 
+.address-grid{
+	text-align: left;
+}
+
+.address-grid p{
+	padding: 1em;
+}
+
+.address-grid li{
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+}
+
 i.ic-up{
 	background-position: 50% 50%;
 	background-image: url('../images/circle-up.png');
@@ -135,6 +148,13 @@ div.content-mid-img1{
 	background-image: url('../images/innovation.jpg');
 }
 
+.logo span{
+	color: #33cc33;
+}
+
+.banner h2{
+	color:#ffa64d;
+}
 
 ul.arrow-list li{
 	list-style: outside none none;
