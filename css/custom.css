@@ -12,7 +12,7 @@ body{
 
 nav{
 	background-color: #E84D34;
-	height: 40px;
+	height: 80px;
 }
 nav img#brand{
 	width: 150px;
@@ -37,7 +37,7 @@ section{
 }
 
 section#sail{
-	margin-top: 50px;
+	margin-top: 80px;
 	background-color: #E84D34;
 }
 
