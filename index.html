@@ -1,17 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8"> 
-	<title>Directory</title>
+	<title>Informaship</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/custom.css" />
 </head>
 <body>
-<a href="society.html">社會</a>
-<a href="society-2.html">社會2</a>
-<a href="env.html">環境</a>
-<a href="env-2.html">環境2</a>
-<a href="env-3.html">環境3</a>
-<a href="env-4.html">環境4</a>
-<a href="econ.html">經濟</a>
-<a href="politics.html">政治</a>
+	<nav class="navbar navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img id="logo" alt="數巨飛船 Informaship" src="img/logo.png" />
+				</a>
+			</div>
+			<div class="side-button navbar-right">
+				<ul class="nav navbar-nav">
+					<li><a href="https://www.facebook.com/informaship/"><img alt="Facebook FanPage" src="img/facebook.png" /></a></li>
+					<li><a href="https://www.behance.net/informaship" class="scale-on-hover"><img alt="Behance Artwork" src="img/behance.png" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="sail">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="ship-box" class="col-xs-12 text-center" data-paroller-factor="0.65" >
+					<h1>Welcome to Sail With Us</h1>
+					<p>Scroll Down<br/><span class="glyphicon glyphicon-triangle-bottom"></span></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="expertise">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="expertise-box" class="col-xs-12 text-center">
+					<h2>OUR EXPERTIES</h2>
+					<div class="feature">
+						<img alt="Visual Design" src="img/design.png" />
+						<p>Visual Design</p>
+					</div>
+					<div class="feature">
+						<img alt="Development" src="img/dev.png" />
+						<p>Development</p>
+					</div>
+					<div class="feature">
+						<img alt="Interactive Experience" src="img/interaction.png" />
+						<p>Interactive Experience</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="service">
+		<div id="service-container" class="container-fluid" data-paroller-factor="0.65">
+			<div class="row">
+				<div id="service-box" class="col-xs-offset-7 col-xs-5" >
+					<h2>OUR SERVICES</h2>
+					<ul>
+						<li>_Graphic Design</li>
+						<li>_Brand Identity</li>
+						<li>_Print &amp; Packaging</li>
+						<li>_Motion Graphic</li>
+					</ul>
+					<ul>
+						<li>_Web Experiences</li>
+						<li>_Mobile Applications</li>
+						<li>_Ineractive Design</li>
+					</ul>
+					<ul>
+						<li>_AR / VR</li>
+						<li>_Ineractive Digital Installation</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="work-box" class="col-md-offset-5 col-md-3 col-xs-12">
+						<h1>Let's<br/>Work<br/>Together</h1>
+						<div class="feature">
+							<h5>Mail Us:</h5>
+							<p><a href="mailto:informaship@gmail.com">informaship@gmail.com</a></p>
+						</div>
+						<div class="feature">
+							<h5>Call Us:</h5>
+							<p>+886-958-160-639</p>
+						</div>
+						<div class="icon-box text-center">
+							<a href="https://www.facebook.com/informaship/"><img alt="Facebook FanPage" src="img/icon-12.png" /></a>
+							<a href="https://www.behance.net/informaship"><img alt="Behance Artwork" src="img/icon-13.png" /></a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="//code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+	<script src="js/jquery.paroller.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#ship-box').paroller();
+			$('#service-container').paroller();
+		});
+	</script>
 </body>
 </html>
